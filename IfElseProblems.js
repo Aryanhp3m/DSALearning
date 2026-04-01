@@ -270,3 +270,55 @@ console.log(result4);
 console.log(result5);
 
 
+
+function tempratureCategory (temp) {
+
+    if (temp<0) {
+        return "freezing"
+    } else if (temp <= 15) {
+        return "Cold"
+    } else if (temp <= 30) {
+        return "Moderate"
+    } else if (temp>30) {
+        return "Hot"
+    }
+} 
+
+let temp = tempratureCategory(-5);
+console.log(temp)
+
+
+
+
+function isEligible(age) {
+   
+    if(age<18) {
+        return "not eligible for Vote"
+    } else {
+        return "eligible for vote"
+    }
+}  
+
+let age = isEligible(8);
+console.log(age);
+
+
+
+
+// function rangeIndentifier (n) {
+   
+//     if (n>1 && n<=50){
+//         return "low"
+//     } else if (n<=100) {
+//         return "Medium"
+//     } else if (n>100) {
+//         return "High"
+//     }
+        
+//     let input = rangeIndentifier(6);
+// };
+
+// console.log(input);
+
+
+
