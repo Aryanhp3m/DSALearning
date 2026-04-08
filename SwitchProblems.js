@@ -11,7 +11,7 @@ function getDayType(day) {
         return "Weekday";
 
         case "Saturday":
-            case "Sunday":
+        case "Sunday":
 
             return "Weekend"
         default:
