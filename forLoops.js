@@ -112,5 +112,41 @@ primesInRange(1, 20);
 
 
 
+// Problem 6...
+
+function reverseNumber(n) {
 
 
+        let str = String(n);
+        let reversed = "";
+    
+        for (let i = str.length - 1; i >= 0; i--) {
+            reversed = reversed + str[i];
+        }
+    
+        console.log(Number(reversed));
+    }
+     
+    
+    
+reverseNumber(1234);
+reverseNumber(9870);
+reverseNumber(100);
+reverseNumber(12345);
+
+
+
+
+
+// Problem 7...
+
+function sumOfDigits(n) {
+
+    let str = String(n);
+    let sum = 0;
+
+    for (let i = 1; i<str.length-1; i++) {
+        sum = sum + Numberstr[i];
+    }
+    return sum;
+}
